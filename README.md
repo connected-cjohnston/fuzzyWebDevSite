@@ -1,14 +1,15 @@
-# AWS Cognito and React
+# WevDev101
 
-This is a small sample app extracted from the WellcomeLeap 1KD react application. It shows off how to work with AWS Cognito inside a React app using the `AWS-Amplify` library.
+This is a small toy serverless web app designed to show off various serverless concepts, libraries, and resources. The site is built in React and will be hosted via S3. It uses AWS Cognito for user authentication.
+
+The site is an online repository of web dev guides and tutorials on various subjects. As a guest, they can see the complete catalogue, but they can't watch any of the tutorials without first becoming a registered user. In addition, there is a small admin section for adding new videos and managing users.
 
 ## Requirements
 
 * Node >= v17.6.0
 * Yarn >= v1.22.17
-* An AWS account
-* An Editor
-* Some understanding of React and ES6+
+* An AWS account for the following services
+  * AWS Cognito
 
 ## Available Scripts
 
